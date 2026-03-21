@@ -99,7 +99,6 @@ body:has(a:hover) .cursor-follower { width: 52px; height: 52px; opacity: 1; bord
 .nav {
   position: fixed; top: 0; left: 0; right: 0;
   display: flex; align-items: center; justify-content: space-between;
-   gap:1rem
   padding: 1.5rem 4rem; z-index: 1000;
   transition: background var(--tr), border-bottom var(--tr), padding var(--tr);
 }
