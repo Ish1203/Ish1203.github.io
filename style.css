@@ -106,8 +106,6 @@ body:has(a:hover) .cursor-follower { width: 52px; height: 52px; opacity: 1; bord
   background: rgba(7,9,16,0.93);
   border-bottom: 1px solid var(--border);
   padding: 1rem 4rem;
-  transform: translateZ(0);
-  backface-visibility: hidden;
 }
 .nav::before {
   content: "";
