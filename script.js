@@ -218,7 +218,9 @@ function initTyped() {
     'Computer Vision Builder',
     'DSA Problem Solver',
     'Full Stack Developer',
-    'Cyber Security Student'
+    'Data Analyst',
+    'Tech Enthusiast',
+    'Lifelong Learner'
   ];
 
   let pi = 0, ci = 0, deleting = false;
