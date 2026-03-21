@@ -111,7 +111,7 @@ body:has(a:hover) .cursor-follower { width: 52px; height: 52px; opacity: 1; bord
 .nav-logo { font-family: var(--font-mono); font-size: 1.1rem; font-weight: 700; letter-spacing: 0.2em; }
 .logo-bracket { color: var(--accent); }
 .logo-text { color: var(--text); margin: 0 0.1em; }
-.nav-links { display: flex; gap: 2.5rem; list-style: none; flex: 1; justify-content: center; position:relative;}
+.nav-links { display: flex; gap: 2.5rem; list-style: none; flex: 1; justify-content: center;}
 .nav-link {
   font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--text-muted); text-decoration: none;
