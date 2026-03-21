@@ -115,11 +115,14 @@ body:has(a:hover) .cursor-follower { width: 52px; height: 52px; opacity: 1; bord
 .nav-link {
   font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--text-muted); text-decoration: none;
-  position: relative; transition: color var(--tr-fast);
+  position: relative; transition: color var(--tr-fast); z-index:1;
 }
 .nav-link::after {
   content: ''; position: absolute; bottom: -4px; left: 0;
   width: 0; height: 1px; background: var(--accent); transition: width var(--tr);
+}
+.nav {
+  isolation: isolate;
 }
 .nav-link:hover { color: var(--accent); }
 .nav-link:hover::after { width: 100%; }
