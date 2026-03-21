@@ -103,7 +103,7 @@ body:has(a:hover) .cursor-follower { width: 52px; height: 52px; opacity: 1; bord
   transition: background var(--tr), border-bottom var(--tr), padding var(--tr);
 }
 .nav.scrolled {
-  background: rgba(7,9,16,0.93);
+  background: rgba(7,9,16,0.93);-
   backdrop-filter: blur(24px);
   border-bottom: 1px solid var(--border);
   padding: 1rem 4rem;
@@ -111,7 +111,7 @@ body:has(a:hover) .cursor-follower { width: 52px; height: 52px; opacity: 1; bord
 .nav-logo { font-family: var(--font-mono); font-size: 1.1rem; font-weight: 700; letter-spacing: 0.2em; }
 .logo-bracket { color: var(--accent); }
 .logo-text { color: var(--text); margin: 0 0.1em; }
-.nav-links { display: flex; gap: 2.5rem; list-style: none; flex: 1; justify-content: center;}
+.nav-links { display: flex; gap: 2.5rem; list-style: none;}
 .nav-link {
   font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--text-muted); text-decoration: none;
@@ -533,7 +533,7 @@ body:has(a:hover) .cursor-follower { width: 52px; height: 52px; opacity: 1; bord
 @media (max-width: 768px) {
   .nav { padding: 1.25rem 1.5rem; }
   .nav.scrolled { padding: 0.9rem 1.5rem; }
-  .nav-links, .nav-cta { display: none; }
+  .nav-links, .nav-cta, .nav-resume { display: none; }
   .hamburger { display: flex; }
   .mobile-menu { display: none; }
   .mobile-menu.open { display: flex; }
